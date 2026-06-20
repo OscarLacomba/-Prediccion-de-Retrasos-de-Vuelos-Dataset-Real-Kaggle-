@@ -1,0 +1,30 @@
+# Dataset completo (demasiado grande para GitHub)
+data/
+*.csv.gz
+
+# Modelos sin comprimir (usar solo los .joblib con compresión LZMA en artifacts/)
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp
+artifacts.zip
